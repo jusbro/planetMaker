@@ -4,7 +4,7 @@ import random
 
 if __name__ == "__main__":
     print("Arrived at dataTableMaker.py")
-    filename = "star_data.csv"
+    filename = "starMaker\star_data.csv"
 
     min_transit_luminosity = 74
     max_transit_luminosity = 80
