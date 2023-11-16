@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def plot_star_data():
     # Read in the CSV file
-    df = pd.read_csv('star_data.csv')
+    df = pd.read_csv('starMaker\star_data.csv')
 
     # Plot the data
     plt.plot(df['time'], df['luminosity'])
